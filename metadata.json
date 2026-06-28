@@ -1,0 +1,6 @@
+{
+  "name": "Luxury Salon & Spa",
+  "description": "A premium, modern, and responsive salon website with an elegant and minimal aesthetic and an integrated booking system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
