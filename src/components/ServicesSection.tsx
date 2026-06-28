@@ -91,8 +91,8 @@ export default function ServicesSection({ onSelectService }: ServicesSectionProp
                       {service.name}
                     </h3>
                     <div className="flex items-center text-gold-600 font-serif font-semibold text-lg whitespace-nowrap pl-2">
-                      <span className="text-sm font-sans font-light mr-0.5">$</span>
-                      {service.price}
+                      <span className="text-sm font-sans font-light mr-0.5">₹</span>
+                        {service.price}
                     </div>
                   </div>
 
