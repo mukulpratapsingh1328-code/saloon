@@ -11,7 +11,7 @@ export interface Service {
   name: string;
   category: ServiceCategory;
   duration: number; // in minutes
-  price: number; // in USD
+  price: number; // in INR
   description: string;
   imageUrl: string;
   popular?: boolean;

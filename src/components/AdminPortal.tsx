@@ -698,7 +698,7 @@ export default function AdminPortal() {
                   <div className="lg:col-span-8 bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 space-y-6 shadow-xs">
                     <div>
                       <h4 className="font-serif text-base font-semibold text-slate-900">Annual Gross Revenue Trend</h4>
-                      <p className="text-[11px] text-slate-400">Gross monthly revenue in USD. Animated gradient baseline.</p>
+                      <p className="text-[11px] text-slate-400">Gross monthly revenue in INR. Animated gradient baseline.</p>
                     </div>
 
                     {/* Highly interactive, custom vector-drawn SVG line chart */}
@@ -874,7 +874,7 @@ export default function AdminPortal() {
                       {/* Price & Duration */}
                       <div className="grid grid-cols-2 gap-2">
                         <div className="space-y-1">
-                          <label className="text-[9px] font-mono uppercase tracking-wider text-slate-400">Price (USD)</label>
+                          <label className="text-[9px] font-mono uppercase tracking-wider text-slate-400">Price (INR)</label>
                           <input
                             type="number"
                             placeholder="120"
@@ -951,7 +951,7 @@ export default function AdminPortal() {
                           <th className="py-4 px-6">Category</th>
                           <th className="py-4 px-6">Duration</th>
                           <th className="py-4 px-6">Featured</th>
-                          <th className="py-4 px-6">Price USD</th>
+                          <th className="py-4 px-6">Price INR</th>
                           <th className="py-4 px-6 text-right">Actions</th>
                         </tr>
                       </thead>
